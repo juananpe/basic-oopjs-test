@@ -1,0 +1,14 @@
+{
+    "name": "Basic OOP JS Project",
+    "postStartCommand": "npm install",
+    "postCreateCommand": "npm install -g http-server",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "forwardPorts": [8080]
+}
